@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+header{
+    background-color: gold;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Rye', cursive;
+}
+
+.nav a {
+    text-decoration: none;
+    color: red;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-left: 80px;
+
+}
+
+.nav a:hover {
+    color: black;
+}
+
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background:url(img/backgjpg.avif) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 200px;
+    
+}
+
+.main img {
+    width: 500px;
+    float: right;
+}
+
+.main h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    padding: 180px 0 0 ;
+
+}
+
+.main h2 {
+    color: gold;
+    margin-bottom: 40px;
+
+}
+
+.mainbtn {
+    color: white;
+    background-color: rgb(9, 9, 237);
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    display: inline-block;
+
+
+}
+
+.mainbtn:hover {
+    background-color: rgb(32, 32, 99) ;
+   
+}
+
+.social a {
+    color: white;
+    font-size: 2em;
+    padding-right: 30px;
+
+}
+
+.aboutme{
+    margin-top: 400px;
+    /* display: flex; */
+    /* flex-direction: row; */
+
+}
+.aboutme h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+.aboutme p {
+    color: white;
+    font-size: 1.4em;
+    padding-bottom: 15px;
+}
+
+.aboutme div {
+    
+    color: white;
+    font-size: 1.5em;
+    float: right;
+    width: 45%;
+    border: solid 1px gold;
+    padding: 10px;
+
+}
+
+.education {
+    margin-top: 200px;
+    width: 100%;
+
+}
+.education h2 {
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.education img { 
+    float: right;
+    width: 45%;
+    border: solid 1px gold;
+    padding: 10px;
+
+}
+
+.education p {
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+}
+
+.skills {
+    margin-top: 300px;
+    width: 100%;
+
+}
+.skills h2 {
+    text-align: center;
+    margin-bottom: 100px;}
+
+   .con  {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    color: white;
+    font-size: 2em;
+    justify-content: space-around;
+    height: max-content;
+    text-align: center;
+
+    
+   } 
+
+   .con div {
+    width: 40%;
+    height: auto;
+    border: 2px solid gold ;
+    box-shadow: 2px 5px 50px 5px rgba(162, 188, 55, 0.75);
+    padding: 40px 0;
+    margin-top: 20px;
+
+
+   } 
+
+   .skills ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0;
+
+}
+
+.experience  {
+    margin-top: 200px;
+    /* font-size: 1.5em; */
+}
+
+.experience h2 {
+    text-align: center;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+justify-content: space-around;
+height: max-content;
+text-align: center;
+
+ }
+ .top div {
+width: 40%;
+height: auto;
+border: 2px solid gold ;
+box-shadow: 2px 5px 50px 5px rgba(162, 188, 55, 0.75);
+padding: 40pxx 0;
+margin-top: 20px;}
+
+.top  p {
+    margin: 20px ;
+}
+
+.language {
+    margin-top: 150px;
+    width: 100%;
+
+}
+.language h2 {
+    text-align: center;
+    margin-bottom: 100px;}
+
+   .conn  {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    color: white;
+    font-size: 2em;
+    justify-content: space-around;
+    height: max-content;
+    text-align: center;
+
+    
+   } 
+
+   .conn div {
+    width: 40%;
+    height: auto;
+    border: 2px solid gold ;
+    box-shadow: 2px 5px 50px 5px rgba(162, 188, 55, 0.75);
+    padding: 40px 0;
+    margin-top: 20px;
+
+
+   } 
+
+   .language ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 20px 0;
+
+}
+
+.courses {
+    margin-top: 200px;
+    font-size: 1.4em;
+}
+
+.courses h2 { 
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.courses a { 
+    color: blue;
+    
+}
+
+.courses a:hover {
+    color: red;
+
+
+
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    background-color: gold;
+   
+
+}
+.footer h2 {
+    color: red;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.contact  {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    color: white;
+    font-size: 2em;
+    justify-content: center;
+    height: max-content;
+    text-align: center;
+}
+
+.contact div {
+    width: auto;
+    height: auto;
+    border: 2px solid gold ;
+    padding: 10px 40px;
+    margin-top: 20px; }
+
+@media (max-width:481px) { 
+    .header { 
+        padding: 10px 20px 
+    }
+    
+    .logo {
+        margin-left: -180px;
+    }
+
+    .main {
+        padding: 40px 10px ;
+        margin-bottom: -20px;
+    }
+
+    .main img { width: 100%;
+
+    }
+
+    .aboutme {
+        margin-top: 50px;
+    }
+
+  .aboutme div {
+    float:none ;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .skills {
+    margin-top: 50px;
+   
+  }
+  .con { 
+    display: flex;
+    flex-direction: column;
+  }
+  .con div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .experience {
+    margin-top: 50px;
+  }
+  .top {
+    display: flex;
+    flex-direction: column;
+  }
+  .top div {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .language{
+    margin-top: 50px;
+
+  }
+
+  .conn {
+    display: flex;
+    flex-direction: column;
+  }
+  .conn div { 
+    width: 100% ;
+    margin-bottom: 20px;
+  }
+
+  .courses {
+    margin-top: 50px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}  
+
+@media screen and ( min-width:482px) and (max-width:768px) {
+
+ .header { 
+        padding: 10px 20px ;
+      
+    }
+    
+    .logo {
+        margin-left: -180px; }
+
+        .main {
+            padding: 40px 20px ;
+            margin-bottom: -20px;
+        }
+
+        .aboutme {
+            margin-top: 150px;
+        }
+
+        .education {
+            margin-top: 300px;
+        }
+
+        .skills {
+            margin-top: 50px;
+        }
+
+        .experience
+        {
+            margin-top: 150px;
+        }
+
+        .courses {
+            margin-top: 50px;
+        }
+}
