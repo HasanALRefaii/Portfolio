@@ -101,7 +101,7 @@ nav a{
 }
 
 .aboutme{
-    margin-top: 400px;
+    margin-top: 300px;
     /* display: flex; */
     /* flex-direction: row; */
 
@@ -129,7 +129,7 @@ nav a{
 }
 
 .education {
-    margin-top: 200px;
+    margin-top: 300px;
     width: 100%;
 
 }
@@ -223,7 +223,7 @@ margin-top: 20px;}
 }
 
 .language {
-    margin-top: 150px;
+    margin-top: 250px;
     width: 100%;
 
 }
@@ -292,7 +292,7 @@ margin-top: 20px;}
 
 }
 .footer h2 {
-    color: red;
+    color: black;
     text-align: center;
     padding-top: 30px;
     
@@ -344,8 +344,12 @@ margin-top: 20px;}
     margin-bottom: 20px;
   }
 
+  .education {
+    margin-top: 150px;
+  }
+
   .skills {
-    margin-top: 50px;
+    margin-top: 150px;
    
   }
   .con { 
@@ -358,7 +362,7 @@ margin-top: 20px;}
   }
 
   .experience {
-    margin-top: 50px;
+    margin-top: 150px;
   }
   .top {
     display: flex;
@@ -370,7 +374,7 @@ margin-top: 20px;}
   }
 
   .language{
-    margin-top: 50px;
+    margin-top: 150px;
 
   }
 
@@ -384,7 +388,7 @@ margin-top: 20px;}
   }
 
   .courses {
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   .contact {
